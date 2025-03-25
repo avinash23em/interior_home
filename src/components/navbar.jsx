@@ -28,7 +28,7 @@ export default function Navbar() {
         <img src={Logo} alt="logo" className="w-10" />
         <span className="text-2xl font-bold">INTERIOR</span>
       </div>
-      <div className="hidden md:block !space-x-12 flex justif-between items-center">
+      <div className="hidden md:block !space-x-12 ">
         {NavLinks.map((link) => {
           return (
             <a
@@ -41,7 +41,7 @@ export default function Navbar() {
         })}
       </div>
       <div>
-     <button className="text-sm lg:text-base border-2 border-black px-4 py-2 shadow-[5px_5px_0px_0px]">Try for free</button>
+     <button className="text-sm lg:text-base border-2 border-black px-4 py-2 shadow-[5px_5px_0px_0px] hover:bg-black hover:text-white duration-300">Try for free</button>
       </div>
     </div>
   );
