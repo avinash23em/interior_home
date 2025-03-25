@@ -2,7 +2,7 @@ import Zero from '../assets/hero.png'
 export default function Hero(){
     return <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 md:min-h-[500px] gap-10">
-        <div className="flex flex-col justify-center gap-7 p-4 md:pr-16 md:text-left pt-20 md:pt-0 py-10">
+        <div className="flex flex-col justify-center gap-7 p-6 md:pr-16 md:text-left pt-20 md:pt-0 py-10">
             <h1 className="text-3xl font-bold">SKETCH LUXURY INTERIOR DESIGN</h1>
             <p className="text-sm text-gray-500">Bring your dream to life with one-on-one design help & hand picked
             products tailored to your style, space and budget.</p>
