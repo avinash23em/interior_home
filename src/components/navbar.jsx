@@ -41,7 +41,7 @@ export default function Navbar() {
         })}
       </div>
       <div>
-     <button className="text-sm lg:text-base border-2 border-black px-4 py-2 shadow-[5px_5px_0px_0px] hover:bg-black hover:text-white duration-300">Try for free</button>
+     <button className="primary_btn">Try for free</button>
       </div>
     </div>
   );
