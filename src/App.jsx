@@ -6,6 +6,7 @@ import Navbar from './components/navbar'
 import Hero from './components/hero'
 import Brand from './components/brands'
 import Service from './components/service'
+import Banner from './components/banner'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +17,7 @@ function App() {
       <Hero/>
       <Brand/>
       <Service/>
+      <Banner/>
     </div>
   )
 }
