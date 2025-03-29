@@ -7,6 +7,7 @@ import Hero from './components/hero'
 import Brand from './components/brands'
 import Service from './components/service'
 import Banner from './components/banner'
+import Banner2 from './components/nxtbanner'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <Brand/>
       <Service/>
       <Banner/>
+      <Banner2/>
     </div>
   )
 }
