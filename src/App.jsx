@@ -22,8 +22,8 @@ function App() {
       <Service/>
       <Banner/>
       <Banner2/>
-      <News/>
       <Testi/>
+      <News/>
     </div>
   )
 }
