@@ -12,7 +12,7 @@ export default function Footer() {
             <p className="text-xl font-semibold">Interior</p>
           </div>
           <p>Greater Noida, Uttar Pradesh, India</p>
-          <p>© 2024 TCJ. All rights reserved.</p>
+          <p>© 2025 TCJ. All rights reserved.</p>
         </div>
 
         
