@@ -9,6 +9,7 @@ import Service from './components/service'
 import Banner from './components/banner'
 import Banner2 from './components/nxtbanner'
 import News from './components/newsletter'
+import Testi from './components/testi'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <Banner/>
       <Banner2/>
       <News/>
+      <Testi/>
     </div>
   )
 }
