@@ -10,6 +10,7 @@ import Banner from './components/banner'
 import Banner2 from './components/nxtbanner'
 import News from './components/newsletter'
 import Testi from './components/testi'
+import Footer from './components/footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
       <Banner2/>
       <Testi/>
       <News/>
+      <Footer/>
     </div>
   )
 }
