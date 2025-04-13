@@ -55,7 +55,7 @@ export default function Footer() {
 
       
       <p className="text-center text-sm font-semibold border-t-2 pt-5 mt-5">
-        &copy; 2024 TCJ. All rights reserved.
+        &copy; 2025 TCJ. All rights reserved.
       </p>
     </div>
   );
